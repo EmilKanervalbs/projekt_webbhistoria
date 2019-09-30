@@ -1,55 +1,33 @@
 html {
-    background-color: #FFFF00;
+    background-color: #000000;
 }
 
 body {
-    font-family:"Comic Sans MS";
+    font-family:"Arial";
     margin:0px;
     font-size: 18px;
+    color: #C0C0C0;
 }
 
-.test {
-    color:#00FFFF;
-    text-align: center;
-    font-size:100px;
+.navbar {
+    width: 100%;
+    overflow: absolute;
+    top: 0px;
+    left: 0px;
 }
 
-.henlo {
-    color:#00FF00;
-    font-size:50px;
+.navbar li {
+    float: left;
 }
 
-.textdiv {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-h1 {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    padding: 0px;
-    margin: 0px;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    column-gap: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.container div{
-    text-align: center;
-}
-
-.yolo {
-    background-color:#FFFFFF;   
-    border-radius: 15px;
+.navbar a {
+    display: block;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #202020;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 ul {
@@ -58,18 +36,61 @@ ul {
     list-style-type: none;
 }
 
-li {
-    float: left;
+.startimage {
+    width:100%;
+    height:100vh;
 }
 
-li a {
-    padding: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    background-color: #000000;
-    text-decoration: none;
-    color: #FFFFFF;
+
+/* .test { test för att sätta text ovanpå bild 
+    color:#00FFFF;
+    text-align: center;
+    font-size:100px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 0px;
+    margin: 0px;
+} */
+
+
+.text {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+.rubrik {
+    text-align: center;
+    font-size: 40px;
+}
+
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.navigation-blocks {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.navigation-blocks div{
+    text-align: center;
+}
+
+.nav-block {
+    background-color:#202020;   
+    border-radius: 15px;
+    padding: 0px;
+    margin:0px;
+}
+
 
 .yabba {
     width: 100%;
@@ -82,13 +103,23 @@ a {
     display: block;
 }
 
-.text {
-    margin: 10px;
+a:visited {
+    color: inherit;
+}
+
+.nav-block-text {
+    padding: 10px;
+    margin: 0px;
+}
+
+.test2 {
+    margin: 0px;
 }
 
 .bottom {
     float:bottom;
     margin-top:50px;
     height: 400px;
-    background-color:#505050
+    background-color:#303030;
+    padding: 20px;
 }
