@@ -9,6 +9,23 @@ body {
     color: #C0C0C0;
 }
 
+.homebutton {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #404040;
+    border-bottom-right-radius: 20px;
+    
+
+}
+
+.homebutton p {
+    padding: 10px;
+    padding-right: 15px;
+    margin: 0;
+    font-size: 20px;
+}
+
 .navbar {
     width: 100%;
     overflow: absolute;
@@ -38,7 +55,7 @@ ul {
 
 .startimage {
     width:100%;
-    height:100vh;
+    margin-bottom: 20px;
 }
 
 
@@ -92,7 +109,7 @@ ul {
 }
 
 
-.yabba {
+.nav-block-image {
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -101,11 +118,13 @@ ul {
 a {
     text-decoration: none;
     display: block;
+    color:inherit;
 }
 
-a:visited {
+/* a:visited {
     color: inherit;
 }
+a: */
 
 .nav-block-text {
     padding: 10px;
@@ -122,4 +141,20 @@ a:visited {
     height: 400px;
     background-color:#303030;
     padding: 20px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin: 0% 20%;
+}
+
+.video, .text {
+    background-color: #FFFFFF;
+}
+
+.video iframe{
+    width: 100%;
+    height: 400px;
 }
