@@ -10,20 +10,14 @@ body {
 }
 
 .homebutton {
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
     background-color: #404040;
     border-bottom-right-radius: 20px;
-    
-
-}
-
-.homebutton p {
+    font-size: 25px;
     padding: 10px;
-    padding-right: 15px;
-    margin: 0;
-    font-size: 20px;
+    padding-right:15px;
 }
 
 .navbar {
@@ -58,20 +52,6 @@ ul {
     margin-bottom: 20px;
 }
 
-
-/* .test { test för att sätta text ovanpå bild 
-    color:#00FFFF;
-    text-align: center;
-    font-size:100px;
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translate(-50%, 0);
-    padding: 0px;
-    margin: 0px;
-} */
-
-
 .text {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -80,6 +60,8 @@ ul {
 .rubrik {
     text-align: center;
     font-size: 40px;
+    margin: 0;
+    padding: 20px 0px;
 }
 
 .container {
@@ -88,10 +70,18 @@ ul {
 }
 
 .navigation-blocks {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 0 15%;
     display: grid;
     grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.navigation-blocks-2 {
+    margin: 0 15%;
+    display: grid;
+    grid-template-columns: 12.5% 30% 30%;
     column-gap: 5%;
     padding: 0px;
     margin-bottom: 20px;
@@ -115,24 +105,33 @@ ul {
     border-top-right-radius: 15px;
 }
 
+.nav-block-text {
+    padding: 10px;
+    margin: 0px;
+}
+
 a {
     text-decoration: none;
     display: block;
     color:inherit;
 }
 
-/* a:visited {
-    color: inherit;
+.content-holder {
+    background-color: #505050;
+    padding-bottom: 20px;
+    margin: 0% 15%;
+    padding: 20px;
+    padding-top: 0px;
+    margin-top: -0px;
+    border-radius: 15px;
 }
-a: */
 
-.nav-block-text {
-    padding: 10px;
-    margin: 0px;
-}
-
-.test2 {
-    margin: 0px;
+.content-holder h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 15px;    
 }
 
 .bottom {
@@ -147,14 +146,23 @@ a: */
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
-    margin: 0% 20%;
-}
-
-.video, .text {
-    background-color: #FFFFFF;
 }
 
 .video iframe{
     width: 100%;
     height: 400px;
+    margin-bottom: -5px;
+}
+
+.content {
+    background-color: #202020;
+}
+
+.text-content {
+    background-color: #303030;
+    padding: 10px;
+}
+
+.gone {
+    display: none;
 }
