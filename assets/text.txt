@@ -6,26 +6,45 @@ Historiska händelser
 60
 År 1963 väcks planer inom sovjetunionen för sitt eget internet, kallat OGAS. Planen var att kontrollera systemet från Moskva med 200 centraler runt om i landet, och 20 000 datorer kopplade till nätverket runt om i sovjetunionen. Eventuellt var planen även att hela Asien och Europa skulle använda systemet.
 
+Andra nätverk skapas runt om i världen, exempelvis i storbritannien, frankrike och chile, men de flesta fallerar precis som sovjets. Däremot får Arpanet, som internet då hette, många av de funktioner som vissa av dessa misslyckade internetförsök hade.
 
+Även om dessa försök misslyckades på grund av olika anledningar är det bättre än att bara en grupp försöker lösa ett problem. När man försöker åstadkomma samma sak på flera ställen kan varje ställe göra lite olika, vilket innebär att några kanske gör något på ett bättre sätt än någon annan. I slutändan tillåter det att man kan förbättra sina system med hjälp av andra system som gör någonting specifikt bättre.
 
 70
-På 1970-talet har datorer blivit allt vanligare var man än går. Digitaliseringen var på fullt språng och allt från biljettsystem till personinformation blir stoppat på datorer. 
+På 1970-talet har datorer blivit allt vanligare var man än går. Digitaliseringen var på fullt språng och allt från biljettsystem till personinformation blir stoppat på datorer. Datorer var inte vanliga i hemmen än, men de fanns på väldigt många ställen annars.
+
+På den tiden var de systemen som fanns väldigt specialiserade. Det måste ha varit lättare att göra en sak som är specialiserad istället för många saker fast bara gör en sak. Därav var nästan all teknologi på den tiden användbar och ingenting dåligt på det sättet.
 
 80
 På 80-talet utvecklades systemen som användes inom länder till att vara sammanlänkade med andra system inom andra länder. I videon visas hur de söker fram information om en specifik medicin bland tusentals artiklar. 
 
+Det finns ingenting dåligt med information, speciellt när det är medicinsk information. Att informationen blir mer lättillgänglig är egentligen bara bra eftersom läkare då kan göra mer informerade val om vilka mediciner patienter bör få. Däremot kan mängden tillgänglig information göra det svårare att hitta relevant information.
+
 90
 1992 hade datorlaboratoriet i Cambridge University ett stort problem. De kunde spendera tid med att gå till kaffebryggaren och komma fram till en tom kaffekanna. Detta löstes genom att installera världens första webbkamera vid bryggaren för att enkelt kunna ta reda på om det finns kaffe i den eller inte. 
 
+Det är någonting som kan sparar tid, genom att snabbt kunna kolla om det finns kaffe eller inte kan man spendera mer tid på att göra annat, mer produktivt. Det kanske tog tid att ställa in så att det funkade men oavsett vad så måste det ha sparat tid i slutändan.
+
 00
-bitcoin lmao xd
+År 2009 skapas bitcoin, en valuta som först 8 år senare gör stora nyheter, då den nådde ett högsta värde på nästan 20 000 dollar. 
+
+Bitcoin är ett intressant koncept men eftersom det inte är bundet till någonting bestämt är det otroligt svårt att reglera värdet, och i slutändan är det bara folks vilja och tillit i valutan som bestämmer värdet. Någonting positivt med bitcoin är alltså hur det inte är reglerat, däremot är det också negativt eftersom det inte ger någon stabilitet i värdet. 
 
 10
-2016 tar Pokemon GO världen med storm. 
+2016 tar Pokemon GO världen med storm. Det är nog det största Augmented-Reality spelet som någonsin har funnits, med en release där folk reste till andra länder bara för att vara snabba med att spela det. Med massor av olika funktioner som uppmanar till att gå ut och röra på sig blev spelet en stor succé.
+
+Med en så stor grej som Pokemon GO finns det ju såklart många positiva och negativa sidor. En av de positiva sakerna var ju såklart att ungar blev uppmanade till att röra på sig och vara sociala med funktioner som pokestops och senare även bossfighter som man behöver vara flera vid. Däremot fanns det många problem i början, som att pokemons kunde befinna sig på ställen som inte var säkra att gå till, exempelvis bangårdar där tåg rör sig. 
 
 Sidors utveckling
 
-Aftonbladet
+Aftonbladet har nästan alltid sett likadant ut. Sidan har utvecklats tillsammans med internet men behållit ungefär samma design. Aftonbladet-loggan högst upp, röd “navbar” med navigeringslänkar på vänster sida, fast med anpassat utseende som passar den generella designen som användes under den tiden. Idag däremot är sidan mer mobil-lik med stora bilder och länkar, till för att locka läsaren istället för en otroligt kompakt design gjord för att packa så många artiklar på den yta som finns tillgänglig.
+
+Någonting som de har släppt ganska nyligen är också den gula snabblänk-delen till vänster med de senaste nyheterna.
+
+reddit?
+
+
+lbs eller nej?
 
 Principer
 
