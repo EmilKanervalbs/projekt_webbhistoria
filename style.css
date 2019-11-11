@@ -1,12 +1,23 @@
-html {
-    background-color: #000000;
-}
-
 body {
     font-family:"Arial";
     margin:0px;
     font-size: 18px;
     color: #C0C0C0;
+}
+
+.dark {
+    color: #C0C0C0;
+    background-color: #000000;
+}
+
+.light {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.button {
+    font-size: 25px;
+    padding: 10px;
 }
 
 .homebutton {
@@ -18,6 +29,16 @@ body {
     font-size: 25px;
     padding: 10px;
     padding-right:15px;
+}
+
+.theme-select {
+    float: right;
+    position: sticky;
+    display: block;
+    border: none;
+    top: 0px;
+    padding-left: 15px;
+    border-bottom-left-radius: 20px;
 }
 
 .navbar {
@@ -49,7 +70,7 @@ ul {
 
 .startimage {
     width:100%;
-    margin-bottom: 10px;
+    margin-bottom: -4px;
 }
 
 .text {
@@ -92,12 +113,18 @@ ul {
 }
 
 .nav-block {
-    background-color:#202020;   
     border-radius: 15px;
     padding: 0px;
     margin:0px;
 }
 
+.nb-dark {
+    background-color: #202020;
+}
+
+.nb-light {
+    background-color: #D0D0D0;
+}
 
 .nav-block-image {
     width: 100%;
