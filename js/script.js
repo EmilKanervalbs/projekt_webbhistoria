@@ -9,9 +9,12 @@ var currentTheme = "dark";
 console.log(localStorage.getItem("theme"));
 
 function setDark() {
+    var main = document.getElementsByClassName("light");
+
     var list = document.getElementsByClassName("nb-light");
 
-    var main = document.getElementsByClassName("light");
+    var content = document.getElementsByClassName("content-light");
+
 
     console.log(list.length  + " " + main.length)
 
@@ -24,19 +27,29 @@ function setDark() {
         list[0].classList.add("nb-dark");
         list[0].classList.remove("nb-light");  
     }
+
+    for (let i = 0; i < content.length;) {
+        content[0].classList.add("content-dark");
+        content[0].classList.remove("content-light");
+        console.log("main " + content.length);
+        console.log("hej");
+    }
+
     localStorage.setItem("theme", "dark");
     currentTheme = "dark";
     theme = "dark";
 }
 
 function setLight() {
-    var list = document.getElementsByClassName("nb-dark"); 
 
     var main = document.getElementsByClassName("dark");
-    
-    console.log(list.length  + " " + main.length)
 
-    console.log(main.length);
+    var list = document.getElementsByClassName("nb-dark"); 
+    
+    var content = document.getElementsByClassName("content-dark");
+    // console.log(list.length  + " " + main.length)
+
+    // console.log(main.length);
 
     for (let i = 0; i < main.length;) {
         main[0].classList.add("light");
@@ -50,6 +63,15 @@ function setLight() {
         list[0].classList.remove("nb-dark");
         console.log("list " + list.length);
     }
+
+    for (let i = 0; i < content.length;) {
+        content[0].classList.add("content-light");
+        content[0].classList.remove("content-dark");
+        console.log("main " + content.length);
+        console.log("hej");
+    }
+
+
     localStorage.setItem("theme", "light");
     currentTheme = "light";
     theme = "light";
