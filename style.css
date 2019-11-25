@@ -23,7 +23,7 @@ body {
     background-color: #303030;
 }
 
-.content-dark .video-content {
+.content-dark .media-content {
     background-color: #202020;
 }
 
@@ -35,7 +35,7 @@ body {
     background-color: #E0E0E0;
 }
 
-.content-light .video-content {
+.content-light .media-content {
     background-color: #E8E8E8;
 }
 
@@ -200,13 +200,17 @@ a {
     column-gap: 20px;
 }
 
-.video-content iframe{
+.media-content iframe{
     width: 100%;
     height: 400px;
     margin-bottom: -5px;
 }
+
+.media-content img{
+    width: 100%;
+}
 /* 
-.video-content {
+.media-content {
     background-color: #202020;
 } */
 .text-content {
