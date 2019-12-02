@@ -1,0 +1,18 @@
+Vad ska testas?
+    Hela hemsidans funktionalitet ska testas.
+
+Hur ska det göras?
+    Användaren bör försöka navigera sidan och nästan mållölst använda den, för att ge en uppfattning om hur sidans flöde fungerar.
+
+Vad ska dokumenteras?
+    Det som bör dokumenteras är om användaren har svårigheter med att hitta sätt att ta sig genom sidan eller om användaren stannar på olika ställen för att förstå vad som pågår.
+
+Test:
+    Det mesta gick bra för användaren, användaren hade inga svårigheter med att navigera från startsidan till de andra sidorna och sedan mellan de andra sidorna.   
+    Däremot hade användaren svårigheter när användaren ville tillbaka till startsidan. Användaren stannade upp och letade runt på skärmen för att hitta tillbaka.
+
+Problem som uppstod:
+    Knappen som för en tillbaka till startsidan är i ett hörn och svår att se.
+
+Lösningar:
+    "Hemknappen" flyttades till först bland länkarna, just nu ganska svåridentifierad men förhoppningsvis löser en fin bild det.
