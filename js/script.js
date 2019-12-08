@@ -1,15 +1,20 @@
+//byter tema på hela sidan
 
-if (localStorage.getItem("theme") != "dark" && localStorage.getItem("theme") != "light") { //checkar om man har varit på sidan tidigare eller har valt ett tema, om inte sätter till dark
+//tema sparas i localStorage.theme, antingen "light" eller "dark"
+
+//kollar om man har valt ett tema tidigare (även då om man har varit på sidan tidigare), om theme inte är "light" eller "dark" sätter den till dark för det är default
+if (localStorage.getItem("theme") != "dark" && localStorage.getItem("theme") != "light") { 
     localStorage.setItem("theme", "dark");
     console.log("satte theme till dark för hittade inte");
 }
 
-var theme = localStorage.getItem("theme"); //kollar upp vilket tema man har valt tidigare
-var currentTheme = "dark"; //sätter nuvarande temat till dark
+//variabel för att unvika att konstant kolla i localStorage.
+var theme = "dark";
 
 console.log(localStorage.getItem("theme")); //skriver ut temat
 
 function setDark() { //byter tema till mörkt
+
     //letar upp alla element som behöver få sitt tema bytt
     var main = document.getElementsByClassName("light");
 
@@ -17,7 +22,7 @@ function setDark() { //byter tema till mörkt
 
     var content = document.getElementsByClassName("content-light");
 
-    //går igenom alla element som finns i listorna 
+    //går igenom alla element som finns i listorna och byter klass till korrekt sak
     for (let i = 0; i < main.length;) {
         main[0].classList.add("dark");
         main[0].classList.remove("light");
@@ -33,19 +38,23 @@ function setDark() { //byter tema till mörkt
         content[0].classList.remove("content-light");
     }
 
+    //ändrar sist temat som är sparat i localStorage
     localStorage.setItem("theme", "dark");
-    currentTheme = "dark";
     theme = "dark";
+
 }
 
+//sätter tema till light
 function setLight() {
 
+    //skapar listor med alla element som har klasser som färgar mörjt
     var main = document.getElementsByClassName("dark");
 
     var list = document.getElementsByClassName("nb-dark"); 
     
     var content = document.getElementsByClassName("content-dark");
 
+    //går igenom alla listor en efter en, tar bort och byter dark klasser till light
     for (let i = 0; i < main.length;) {
         main[0].classList.add("light");
         main[0].classList.remove("dark");
@@ -63,11 +72,12 @@ function setLight() {
 
     console.log("Blind mode activated");
 
+    //ändrar till sist temat som är sparat i localStorage.
     localStorage.setItem("theme", "light");
-    currentTheme = "light";
     theme = "light";
 }
 
+//funktion som byter temat
 function changeTheme() {
     if (theme == "light") {
         setDark();
@@ -77,9 +87,8 @@ function changeTheme() {
     console.log(theme);
 }
 
-//sätter tema till ljust om det ska vara det
-if (theme == "light" && currentTheme != theme) {
+//sätter tema till ljust om det ska vara det när sidan först öppnas för varför inte
+if (localStorage.getItem("theme") == "light" && theme != localStorage.getItem("theme")) {
     setLight();
-    currentTheme = "light";
 } 
 
