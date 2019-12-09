@@ -41,7 +41,6 @@ function setDark() { //byter tema till mörkt
     //ändrar sist temat som är sparat i localStorage
     localStorage.setItem("theme", "dark");
     theme = "dark";
-
 }
 
 //sätter tema till light
