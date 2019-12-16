@@ -1,0 +1,55 @@
+vad gjordes?
+
+Arbetet började med en grundläggande idé om hur sidan skulle se ut. En navbar testades men ansångs inte passa, så den byttes ut mot navigeringsknapparna längst ned.
+
+Efter det fortsatte arbetet med att göra en någorlunda färdig förstasida så att de andra sidorna kunde göras med liknande design.
+
+När förstasidan var färdig skapades de andra sidorna och de grundläggande elementen lades till, det innefattar navigeringsknapparna längs ner samt en temporär header bild.
+
+Sedan gjordes den speciella designen på sidan för viktiga händelser. Även fixades navigeringsknapparna så att det bara var två stycken, med en hemknapp högst upp i vänstra hörnet.
+
+Därefter lades alla rubriker till på alla sidor och den faktiska texten började skrivas.
+
+Eferåt skapades sidans theme selector i javascript och med det gjordes det om lite i css för att minimera mängden klasser som behövde bytas för att ändra tema. 
+Mest arbete hamnade på viktiga händelser sidan där istället för att varje klass bestämde färgen på den delen blev det istället relativt till en överliggande klass.
+
+Efter det lades alla bilder och videor till i viktiga händelser och mer text blev skriven och lagd på sidan.
+
+Sedan gjordes användartester och sidan anpassades till det. Även gjordes lite städning i js-koden så att den blev lättare att läsa och hade mindre onödig kod.
+
+Efter det gjordes alla headerbilder samt länkbilder och texten på startsidan gjordes klart.
+
+
+Startsidan:
+
+Nästan allt gick egentligen bra med startsidan. Det som var svårt var att få navigeringsknapparna att se okej ut.
+
+Något som kunde gjorts bättre är nog mängden innehåll på startsidan, det blev väldigt lite. 
+
+Användartesterna påverkade inte startsidan något, eftersom det enda som egenligen verkade vara problematiskt var knappen tillbaka till startsidan på de andra sidorna.
+
+
+Viktiga händeser:
+
+Igen gick ganska mycket bra, det var några svårigheter med att få sidan att se rätt ut, speciellt med videorna som var ganska problematiska när de lägger sig dumt.
+
+Jag tror att färgerna i viktiga händelser kunde förbättrats mycket, färgerna går inte jättebra ihop på det sättet.
+
+Användartesterna påverkade genom att hemknappen flyttades till bland navigeringsknapparna istället för att ligga längst upp i vänstra hörnet.
+
+
+Utveckling:
+
+I stort sätt allt med sidan gick bra, det svåraste var nog nästan med bilderna som skulle vara mindre och ligga i mitten av texten med en liten bildtext men det var inte jättesvårt.
+
+Någonting som kunde ha gjorts bättre är nog dels mängden text och dels platsen på bilderna, så att det blir mer jämfördelat. 
+Användartesterna påverkade på samma sätt som i viktiga händelser.
+
+
+Principer/Webbpubliceringssystem:
+
+Det gick bra, det fanns inga större svårigheter. Det svåraste var att skriva texten.
+
+Bilder kunde ha använts för att visa hur webbpubliceringssystemen fungerade och såg ut.
+
+Användartesterna påverkade på samma sätt som i viktiga händelser.
